@@ -1,6 +1,35 @@
+
+
+@font-face {
+  font-family: 'Eczar';
+  src: url('../fonts/eczar-v27-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eczar';
+  src: url('../fonts/eczar-v27-latin-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eczar';
+  src: url('../fonts/eczar-v27-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eczar';
+  src: url('../fonts/eczar-v27-latin-800.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Eczar', serif;
   background-color: #1D0530;
   color: #E7FCF4;
 }
@@ -14,12 +43,16 @@ body {
   font-size: 2.5rem;
   color: #F2C251;
   margin-bottom: 20px;
+  font-family: 'Eczar', serif;
+    font-weight: 800;
 }
 
 .intro {
   max-width: 700px;
   margin: 0 auto 40px;
   line-height: 1.6;
+  font-family: 'Eczar', serif;
+   font-weight: 400;
 }
 
 /* CONTENEDOR DE TARJETAS */
@@ -40,11 +73,20 @@ body {
 
 .card-about h2 {
   color: #F2C251;
+    font-family: 'Eczar', serif;
+  font-weight: 700;
+
 }
 
 .card-about h3 {
   font-size: 1rem;
   margin-bottom: 10px;
+  font-family: 'Eczar', serif;
+  font-weight: 600;
+}
+.card-about p {
+  font-family: 'Eczar', serif;
+  font-weight: 400;
 }
 
 .card-about span {
@@ -53,6 +95,8 @@ body {
   font-style: italic;
   color: #E7FCF4;
   opacity: 0.8;
+font-family: 'Eczar', serif;
+  font-weight: 400;
 }
 
 /* EFECTO HOVER */
@@ -67,6 +111,13 @@ body {
 
 .purpose h2 {
   color: #F2C251;
+font-family: 'Eczar', serif;
+  font-weight: 700;
+}
+.purpose p {
+  font-family: 'Eczar', serif;
+  font-weight: 400;
+  
 }
 
 
