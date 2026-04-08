@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    
+    <main id="galeria-letras">
+      <div id="seccion-filtros">
+        <button id="boton-todas" onclick="filtrar('todas')">Todas</button>
+        <button id="boton-vocales" onclick="filtrar('vocal')">Vocales</button>
+      </div>
+      <!-- A -->
+      <div class="card" data-tipo="vocal" onclick="voltear(this)">
+        <div class="card-frente"><h1>A</h1></div>
+        <div class="card-dorso">
+          <img src="./assets/A.jpg" alt="Avestruz" />
+          <h3>Avestruz</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
