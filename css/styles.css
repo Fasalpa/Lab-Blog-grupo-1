@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 
 @font-face {
   font-family: 'Eczar';
@@ -139,7 +138,6 @@ font-family: 'Eczar', serif;
   .title {
     font-size: 2rem;
   }
-=======
 @font-face {
   font-family: 'eczar-regular'; 
   src: url('../fonts/eczar-v27-latin-regular.woff2') format('woff');
@@ -193,6 +191,7 @@ footer img {
     width: 20px;
     height: 20px;
 }
+
 .list {
     display: flex;
     align-items: center;
@@ -200,5 +199,4 @@ footer img {
     gap: 20px;
     list-style: none;
     padding: 10px 70px 0px 0px;
->>>>>>> main
-}
+}}
