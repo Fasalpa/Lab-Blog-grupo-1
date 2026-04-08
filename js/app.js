@@ -7,6 +7,5 @@ boton.addEventListener("click", () => {
 })
 
 function voltear(card) {
-  // Con toggle, si la clase existe la quita, y si no, la pone
   card.classList.toggle('flipped');
 }
