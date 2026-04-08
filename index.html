@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarot</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
@@ -16,91 +19,86 @@
       </ul>
     </nav>
 
-    
-      <main id="galeria-signos">
-      <div id="seccion-filtros">
-        <button id="boton-todas" onclick="filtrar('todas')">Todas</button>
-        <button id="boton-vocales" onclick="filtrar('vocal')">Vocales</button>
-      </div>
-      <!-- A -->
-      <div class="card"  id="carpicornio" onclick="voltear(this)">
+    <main id="galeria-signos">
+      
+      <div class="card" id="carpicornio" onclick="voltear(this)">
         <div class="card-frente"><h1>Acuario</h1></div>
         <div class="card-dorso">
           <img src="assets/capricornio.jpg" alt="Carpicornio" />
           <h3>Carpicornio</h3>
         </div>
       </div>
-      <div class="card"  id="acuario" onclick="voltear(this)">
+      <div class="card" id="acuario" onclick="voltear(this)">
         <div class="card-frente"><h1>acuario</h1></div>
         <div class="card-dorso">
           <img src="assets/acuario.jpg" alt="acuario" />
           <h3>Acuario</h3>
         </div>
       </div>
-      <div class="card"  id="piscis" onclick="voltear(this)">
+      <div class="card" id="piscis" onclick="voltear(this)">
         <div class="card-frente"><h1>Piscis</h1></div>
         <div class="card-dorso">
           <img src="assets/piscis.jpg" alt="piscis" />
           <h3>Piscis</h3>
         </div>
       </div>
-      <div class="card"  id="aries" onclick="voltear(this)">
+      <div class="card" id="aries" onclick="voltear(this)">
         <div class="card-frente"><h1>Aries</h1></div>
         <div class="card-dorso">
           <img src="assets/aries.jpg" alt="aries" />
           <h3>Aries</h3>
         </div>
       </div>
-      <div class="card"  id="tauro" onclick="voltear(this)">
+      <div class="card" id="tauro" onclick="voltear(this)">
         <div class="card-frente"><h1>Tauro</h1></div>
         <div class="card-dorso">
           <img src="assets/tauro.jpg" alt="tauro" />
           <h3>Tauro</h3>
         </div>
       </div>
-      <div class="card"  id="géminis" onclick="voltear(this)">
+      <div class="card" id="géminis" onclick="voltear(this)">
         <div class="card-frente"><h1>Géminis</h1></div>
         <div class="card-dorso">
           <img src="assets/geminis.jpg" alt="géminis" />
           <h3>Géminis</h3>
         </div>
       </div>
-      <div class="card"  id="cáncer" onclick="voltear(this)">
+      <div class="card" id="cáncer" onclick="voltear(this)">
         <div class="card-frente"><h1>Cáncer</h1></div>
         <div class="card-dorso">
           <img src="assets/cancer.jpg" alt="cáncer" />
           <h3>Cáncer</h3>
         </div>
       </div>
-      <div class="card"  id="leo" onclick="voltear(this)">
+      <div class="card" id="leo" onclick="voltear(this)">
         <div class="card-frente"><h1>Leo</h1></div>
         <div class="card-dorso">
           <img src="assets/leo.jpg" alt="leo" />
           <h3>Leo</h3>
         </div>
       </div>
-      <div class="card"  id="virgo" onclick="voltear(this)">
+      <div class="card" id="virgo" onclick="voltear(this)">
         <div class="card-frente"><h1>Virgo</h1></div>
         <div class="card-dorso">
           <img src="assets/virgo.jpg" alt="virgo" />
           <h3>Virgo</h3>
         </div>
       </div>
-      <div class="card"  id="libra" onclick="voltear(this)">
+      <div class="card" id="libra" onclick="voltear(this)">
         <div class="card-frente"><h1>Libra</h1></div>
         <div class="card-dorso">
           <img src="assets/libra.jpg" alt="libra" />
           <h3>Libra</h3>
         </div>
       </div>
-      <div class="card"  id="escorpio" onclick="voltear(this)">
+      <div class="card" id="escorpio" onclick="voltear(this)">
         <div class="card-frente"><h1>Escorpio</h1></div>
         <div class="card-dorso">
           <img src="assets/escorpio.jpg" alt="escorpio" />
           <h3>Escorpio</h3>
         </div>
       </div>
-      <div class="card"  id="sagitario" onclick="voltear(this)">
+      <div class="card" id="sagitario" onclick="voltear(this)">
         <div class="card-frente"><h1>Sagitario</h1></div>
         <div class="card-dorso">
           <img src="assets/sagitario.jpg" alt="sagitario" />
@@ -120,14 +118,23 @@
       <div>
         <p>Redes sociales</p>
         <di>
-          <a href="https://instagram.com">          
-            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTM1LXNvY2lhbC0wMDNhLnBuZw.png" alt="instagram">
+          <a href="https://instagram.com">
+            <img
+              src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTM1LXNvY2lhbC0wMDNhLnBuZw.png"
+              alt="instagram"
+            />
           </a>
           <a href="https://facebook.com">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlyJAS41irWml5jOV-83sBSYVyj7QE-tJa7Q&s" alt="facebook">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlyJAS41irWml5jOV-83sBSYVyj7QE-tJa7Q&s"
+              alt="facebook"
+            />
           </a>
           <a href="https://tiktok.com">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRv1Ad1t_VUL7ce2rUyhbNiPBLe_olpWxSw&s" alt="tiktok">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRv1Ad1t_VUL7ce2rUyhbNiPBLe_olpWxSw&s"
+              alt="tiktok"
+            />
           </a>
         </di>
       </div>
