@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1D0530;
+  color: #E7FCF4;
+}
+
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #F2C251;
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* CONTENEDOR DE TARJETAS */
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* TARJETAS */
+.card-about {
+  background-color: #2a0a45;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-about h2 {
+  color: #F2C251;
+}
+
+.card-about h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card-about span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #E7FCF4;
+  opacity: 0.8;
+}
+
+/* EFECTO HOVER */
+.card-about:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 15px #F2C251;
+}
+
+.purpose {
+  margin-top: 50px;
+}
+
+.purpose h2 {
+  color: #F2C251;
+}
+
+
+
+
+@media (max-width: 900px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 500px) {
+  .team {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
